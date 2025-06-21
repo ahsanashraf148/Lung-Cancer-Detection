@@ -43,6 +43,7 @@ Traditional histopathological diagnosis of lung cancer:
 ### 📍 Part 1: Custom CNN (TensorFlow/Keras)
 
 Features:
+
 - Residual connections
 - Batch normalization
 - Dropout regularization
@@ -50,6 +51,7 @@ Features:
 - Fully connected classifier
 
 **Training Details:**
+
 - Optimizer: `Adamax`
 - Loss: `Categorical Crossentropy`
 - Augmentations: `ImageDataGenerator`
@@ -62,6 +64,7 @@ Features:
 Model: `swin_tiny_patch4_window7_224` from [timm](https://github.com/rwightman/pytorch-image-models)
 
 Key Techniques:
+
 - Fine-tuning on lung cancer dataset
 - Pretrained on ImageNet
 - Custom classification head
@@ -74,18 +77,20 @@ Key Techniques:
 ## 📊 Results
 
 ### ✅ Custom CNN
-| Metric | Value |
-|--------|-------|
-| Train Accuracy | 99.67% |
-| Validation Accuracy | 98.27% |
-| Test Accuracy | 98.93% |
-| ROC-AUC Score | **0.9997** |
+
+| Metric              | Value      |
+| ------------------- | ---------- |
+| Train Accuracy      | 99.67%     |
+| Validation Accuracy | 98.27%     |
+| Test Accuracy       | 98.93%     |
+| ROC-AUC Score       | **0.9997** |
 
 ### ✅ Swin Transformer
-| Metric | Value |
-|--------|-------|
-| Train Accuracy | 98.42% |
-| ROC-AUC Score | **1.0000** |
+
+| Metric         | Value      |
+| -------------- | ---------- |
+| Train Accuracy | 98.42%     |
+| ROC-AUC Score  | **1.0000** |
 
 ---
 
@@ -102,18 +107,6 @@ Key Techniques:
 - 📘 **Keras and TensorFlow** Documentation
 - 📘 **PyTorch** Documentation
 - 📘 **Scikit-learn**: Classification reports, metrics, and ROC-AUC
-
----
-
-## 👥 Team Members
-
-| Name            | Roll Number |
-|-----------------|-------------|
-| **Obaida Naeem**| 21K-3341    |
-| **Ahsan Ashraf**| 21K-3186    |
-| **Rahool Rathi**| 21K-4580    |
-
-> Guided by: **Miss Sumaiyah**
 
 ---
 
