@@ -127,17 +127,13 @@ Key Techniques:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/lung-cancer-detection.git
+git clone https://github.com/ahsanashraf148/lung-cancer-detection.git
 cd lung-cancer-detection
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Run CNN Model
-python train_cnn.py
-
-# Run Swin Transformer
-python train_swin.py
+# Run the ipnyb file
 ```
 
 ---
